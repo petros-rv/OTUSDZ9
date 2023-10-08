@@ -1,0 +1,137 @@
+From joker@ubuntu22  Sun Oct  8 19:38:32 2023
+Return-Path: <joker@ubuntu22>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by ubuntu22.mt.local (Postfix, from userid 1000)
+	id 208231E204D; Sun,  8 Oct 2023 19:38:32 +0300 (MSK)
+Subject: CHEK LOG FILE NGINX 
+To: <root@localhost>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Sun,  8 Oct 2023 19:38:32 +0300
+Message-Id: <20231008163832.208231E204D@ubuntu22.mt.local>
+From: joker <joker@ubuntu22>
+
+
+Данные за период:14/Aug/2019:04:12:10+0300 - 14/Aug/2019:08:21:48+0300
+
+IP адреса c которых поступает больше 5 запросов :
+№  IP              Количество
+1  93.158.167.130  9
+2  165.22.19.102   6
+3  87.250.233.68   5
+4  71.6.199.23     5
+-  ИТОГО           25
+
+Запрашиваемые больше 5 раз URL адреса:
+№  Строка_адреса  Количество
+1  /              22
+2  /wp-login.php  11
+3  /xmlrpc.php    7
+-  ИТОГО          40
+
+Все ошибки:
+№  Код_ошибки  Количество
+1  404         13
+2  500         1
+-  ИТОГО       14
+
+Все коды возврата сервера
+№  Код_возврата  Количество
+1  200           49
+2  404           13
+3  301           11
+4  500           1
+-  ИТОГО         74
+
+From joker@ubuntu22  Sun Oct  8 19:39:05 2023
+Return-Path: <joker@ubuntu22>
+X-Original-To: root@localhost
+Delivered-To: root@localhost
+Received: by ubuntu22.mt.local (Postfix, from userid 1000)
+	id B079E1E204D; Sun,  8 Oct 2023 19:39:05 +0300 (MSK)
+Subject: CHEK LOG FILE NGINX 
+To: <root@localhost>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Sun,  8 Oct 2023 19:39:05 +0300
+Message-Id: <20231008163905.B079E1E204D@ubuntu22.mt.local>
+From: joker <joker@ubuntu22>
+
+
+Данные за период:14/Aug/2019:08:23:40+0300 - 15/Aug/2019:00:25:46+0300
+
+IP адреса c которых поступает больше 5 запросов :
+№   IP               Количество
+1   109.236.252.130  39
+2   212.57.117.19    37
+3   93.158.167.130   36
+4   188.43.241.106   33
+5   87.250.233.68    26
+6   148.251.223.21   22
+7   62.75.198.172    20
+8   185.6.8.9        20
+9   217.118.66.161   17
+10  95.165.18.146    16
+11  62.210.252.196   12
+12  185.142.236.35   12
+13  162.243.13.195   12
+14  95.108.181.93    8
+15  163.179.32.118   8
+16  87.250.233.75    6
+17  167.99.14.153    6
+18  5.45.203.12      5
+-   ИТОГО            335
+
+Запрашиваемые больше 5 раз URL адреса:
+№   Строка_адреса                                                                Количество
+1   /wp-login.php                                                                109
+2   /                                                                            103
+3   /xmlrpc.php                                                                  50
+4   /robots.txt                                                                  17
+5   /favicon.ico                                                                 10
+6   /wp-includes/js/wp-embed.min.js?ver=5.0.4                                    7
+7   /wp-content/uploads/2016/10/robo5.jpg                                        6
+8   /wp-content/uploads/2016/10/robo4.jpg                                        6
+9   /wp-content/uploads/2016/10/robo3.jpg                                        6
+10  /wp-content/uploads/2016/10/robo2.jpg                                        6
+11  /wp-content/uploads/2016/10/robo1.jpg                                        6
+12  /wp-content/uploads/2016/10/aoc-1.jpg                                        6
+13  /wp-content/uploads/2016/10/agreed.jpg                                       6
+14  /wp-content/themes/llorix-one-lite/style.css?ver=1.0.0                       6
+15  /wp-admin/admin-post.php?page=301bulkoptions                                 6
+16  /wp-includes/js/wp-emoji-release.min.js?ver=5.0.4                            5
+17  /wp-includes/css/dist/block-library/style.min.css?ver=5.0.4                  5
+18  /wp-content/themes/llorix-one-lite/js/vendor/bootstrap.min.js?ver=3.3.7      5
+19  /wp-content/themes/llorix-one-lite/js/skip-link-focus-fix.js?ver=1.0.0       5
+20  /wp-content/themes/llorix-one-lite/js/custom.all.js?ver=2.0.2                5
+21  /wp-content/themes/llorix-one-lite/css/font-awesome.min.css?ver=4.4.0        5
+22  /wp-content/themes/llorix-one-lite/css/bootstrap.min.css?ver=3.3.1           5
+23  /wp-content/plugins/pc-google-analytics/assets/js/frontend.min.js?ver=1.0.0  5
+24  /wp-content/plugins/pc-google-analytics/assets/css/frontend.css?ver=1.0.0    5
+25  /wp-content/plugins/llorix-one-companion//css/style.css?ver=5.0.4            5
+-   ИТОГО                                                                        400
+
+Все ошибки:
+№  Код_ошибки  Количество
+1  404         38
+2  "-"         11
+3  400         7
+4  500         2
+5  499         2
+6  405         1
+7  403         1
+-  ИТОГО       62
+
+Все коды возврата сервера
+№   Код_возврата  Количество
+1   200           449
+2   301           84
+3   404           38
+4   "-"           11
+5   400           7
+6   500           2
+7   499           2
+8   405           1
+9   403           1
+10  304           1
+-   ИТОГО         596
+
