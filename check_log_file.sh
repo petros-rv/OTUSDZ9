@@ -13,7 +13,7 @@ getTimePeriod() {
   local timeF=$(awk '{print $4 $5}' ./access-4560-644067.log | sed 's/\[//; s/\]//' | sed -n "$2"p)
   echo -e "$timeN - $timeF"
 }
-# Период времени запишем в переменную pp
+# Период времени запишем в переменную period
 period="$(getTimePeriod "$nomerStr" "$kolStr")"
 # Определение количества запросов с IP адресов
 ip=$(awk '{if (NR >= '$nomerStr') print $1}' ./access-4560-644067.log | sort | uniq -c |sort -nr |awk 'BEGIN {print "\n№ IP Количество"} {if($1>=5) n=n+$1; if($1>=5) print FNR, $2,$1} END {print "-", "ИТОГО",n}'|column -t)
